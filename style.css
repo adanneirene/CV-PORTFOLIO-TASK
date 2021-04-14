@@ -1,0 +1,211 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+div.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    width: 100vw;
+    background: maroon;
+}
+
+div.logo {
+    font-size: 1.5rem;
+    color: #bcc3c7;
+}
+
+ul.nav-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0 2vw;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #88949B;
+    padding: 0.5vw;
+}
+
+ul li a:hover {
+    color: #304353;
+    background: #fff;
+    padding: 0.5rem;
+}
+/*Adanne section/
+div.kama-section {
+    background: #304353;/affects the whole of personal information page/
+    padding: 10rem;
+}
+
+div.Adanne-content-heading {
+    text-align: center;
+}
+
+div.Adanne-content-heading h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;/only affects the content heading/
+}
+
+/making the button functional/
+
+
+/contact section/
+div.contact-section {
+    background: orangered;
+    padding: 10rem;
+}
+
+div.contact-content-heading {
+    text-align: center;
+}
+ p{
+    text-align: left;
+}
+
+div.contact-content-heading h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+    
+}
+
+/education content/
+div.education-section {
+    background: #596705;
+    
+    padding: 10rem;
+}
+
+div.education-content-heading {
+    text-align: center;
+}
+
+div.education-content-heading h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+    /research content/
+div.research-experience-section {
+    background: #170567;
+    padding: 10rem;
+}
+
+div.research-experience-content-heading {
+    text-align: center;
+}
+
+div.research-experience-content-heading h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+/workshop-experience/
+div.workshop-experience-section {
+    background: pink;
+    padding: 10rem;
+}
+
+
+
+    /aligning the text/
+div.work-experience-content-heading ul{
+    text-align: left;
+
+    }
+
+div.work-experience-content-heading h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+
+/Technical skill section/       
+div.technical-skills-section {
+     background: rgb(245, 245, 245);
+     padding: 10rem;
+ }
+ 
+ div.technical-skills-content-heading {
+     text-align: center;
+ }
+ 
+ div.technical-skills-content-heading h3 {
+     font-size: 2rem;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: 300;
+     color: black;
+ }
+ 
+ div.technical-skills-content-heading ul{
+     text-align: left;
+    
+ }
+
+    /other skills content/ 
+ div.other-skills-section {
+    background: palevioletred; 
+    padding: 10rem;
+}
+
+div.other-skills-content-heading {
+    text-align: center;
+}
+ ul {
+    text-align: left;
+}
+
+div.other-skills-content-heading h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+    /interest/
+    div.interest-section {
+        background: orangered; 
+        padding: 10rem;
+    }
+    
+    div.interest-content-heading {
+        text-align: center;
+    }
+     body.p{
+        text-align: left;
+    }
+    
+    div.interest-content-heading h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 300;
+        color: black;
+        
+    }
